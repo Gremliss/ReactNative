@@ -1,33 +1,37 @@
 {
   "expo": {
-    "name": "AsyncStorageNoteApp",
+    "name": "Notes",
     "slug": "AsyncStorageNoteApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/writing.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/sand-clock.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/writing.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.gremliss.AsyncStorageNoteApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/writing.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2c37763d-99e1-4f0c-853a-0c9b40be8594"
+      }
     }
   }
 }
